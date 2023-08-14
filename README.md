@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/anabaf/roam-phrase-app/assets/119486067/60614fb7-4a24-4935-80a3-90a939d8109d" alt="Screenshot 1" width="500">
+  <img src="https://github.com/anabaf/travel-flashcards-web-app/assets/119486067/1cd407cd-fd74-4c62-a5d9-2711f9826f43" alt="Screenshot 1" width="500">
   <br>
   <em>Homepage demo</em>
 </p>
@@ -26,12 +26,12 @@ The Travel Flashcards App provides an easy and interactive way to learn importan
 
 ## Screenshots
 <p align="center">
-  <img src="https://github.com/anabaf/roam-phrase-app/assets/119486067/742eb913-a97c-43bf-b177-02de85814ad2d" alt="Screenshot 1" width="350">
+  <img src="https://github.com/anabaf/travel-flashcards-web-app/assets/119486067/c8204c4f-4b15-426a-bc36-19c385c0bcac" alt="Screenshot 1" width="350">
   <br>
   <em>Flashcard demo #1</em>
 </p>
 <p align="center">
-  <img src="https://github.com/anabaf/roam-phrase-app/assets/119486067/ee60166b-1f95-42dd-9a06-e0feebbef76a" alt="Screenshot 2" width="350">
+  <img src="https://github.com/anabaf/travel-flashcards-web-app/assets/119486067/741d60a0-a7da-4acc-9d38-dcec29eac0e9" alt="Screenshot 2" width="350">
   <br>
   <em>Flashcard demo #2</em>
 </p>
