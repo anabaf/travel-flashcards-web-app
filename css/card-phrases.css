@@ -1,0 +1,57 @@
+.flag {
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    font-size: 24px;
+}
+
+.flag-icon {
+    font-size: 40px;
+}
+
+.info-box {
+    background-color: white;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 5px 10px;
+    display: inline-block;
+    flex: 2;
+    text-align: left;
+    margin-left: 0px;
+}
+
+.info-text {
+    margin: 0;
+    color: #555;
+    font-size: 18px;
+}
+
+#audio-img {
+    width: 25px;
+}
+
+.card-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.previous-button,
+.next-button {
+    background-color: #264653;
+    border: none;
+    color: white;
+    font-size: 18px;
+    padding: 8px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease-in-out;
+}
+
+.previous-button:hover,
+.next-button:hover {
+    background-color: #3b6c80;
+}
