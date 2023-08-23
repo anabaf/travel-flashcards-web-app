@@ -75,11 +75,5 @@ The Travel Flashcards App provides an easy and interactive way to learn importan
 
 Contributions are welcome! If you'd like to contribute to the project, feel free to fork the repository, make your changes, and submit a pull request.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
-
 Enjoy learning new languages with the Travel Flashcards App! If you have any questions or feedback, please feel free to contact me.
 
