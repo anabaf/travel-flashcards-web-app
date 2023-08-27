@@ -6,7 +6,7 @@
 
 # Travel Flashcards App
 
-Welcome to the Travel Flashcards App! This application is designed to help users learn essential phrases in different languages while traveling. Whether you're exploring a new country or trying to communicate in a foreign language, this app has got you covered.
+Welcome to Roam Phrase the travel flashcards app! This application is designed to help users learn essential phrases in different languages while traveling. Whether you're exploring a new country or trying to communicate in a foreign language, this app has got you covered.
 
 ## Table of Contents
 
