@@ -176,5 +176,11 @@ tags
 .history
 .ionide
 
+# .gitignore
+
+# Ignore .env file containing API key
+.env
+
+
 # End of https://www.toptal.com/developers/gitignore/api/vim,intellij+all,visualstudiocode,macos,linux
 
