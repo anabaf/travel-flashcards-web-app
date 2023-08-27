@@ -1,5 +1,5 @@
-const API_KEY = 'MY_API';
 const API_URL = `https://translation.googleapis.com/language/translate/v2?key=${API_KEY}`
+const API_KEY = process.env.API_KEY;
 
 let sourceLanguage = {
     lang: '',
@@ -54,6 +54,7 @@ const phrasesDB = [
 let sourcePhrases = [];
 
 let translatedPhrases = [];
+
 
 async function translatePhrase(phrase, sourceLanguage, targetLanguage) {
     const requestTranslation = {
