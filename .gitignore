@@ -178,7 +178,6 @@ tags
 
 # .gitignore
 
-# Ignore .env file containing API key
 .env
 
 
