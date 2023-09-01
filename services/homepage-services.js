@@ -1,5 +1,4 @@
 const API_KEY = process.env.API_KEY;
-console.log(API_KEY);
 const API_URL = `https://translation.googleapis.com/language/translate/v2?key=${API_KEY}`
 
 let sourceLanguage = {
