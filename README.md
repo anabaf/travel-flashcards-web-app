@@ -8,7 +8,21 @@
 
 Welcome to Roam Phrase the travel flashcards app! This application is designed to help users learn essential phrases in different languages while traveling. Whether you're exploring a new country or trying to communicate in a foreign language, this app has got you covered.
 
-Access this link to explore the app: https://anabaf.github.io/travel-flashcards-web-app 
+Access this link to explore the app: https://anabaf.github.io/travel-flashcards-web-app (currently down)
+
+## Current Status
+
+- [x] Implemented core functionality.
+- [ ] Working on deployment.
+- [ ] Addressing API key security concerns.
+
+## Deployment Status
+
+I'm currently in the process of deploying this web application. Unfortunately, I've encountered some challenges, and it's not live yet. I'll keep you updated on the progress.
+
+## API Key Security
+
+To ensure the security of our application and sensitive API keys, I'm working on implementing best practices for managing and securing API keys. This is a top priority.
 
 ## Table of Contents
 
@@ -46,7 +60,6 @@ The Travel Flashcards App provides an easy and interactive way to learn importan
 - Practice pronunciation using the built-in Speech API.
 
 ## Upcoming Features
-
 - Categories feature: Explore flashcards by specific categories for focused learning.
 - Additional languages: Expand your language options for even more language learning opportunities.
 
