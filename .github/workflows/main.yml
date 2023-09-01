@@ -1,0 +1,5 @@
+- name: Set API key as environment variable
+  env:
+    API_KEY: ${{ secrets.API_KEY }}  # This retrieves the secret value
+  run: echo "API_KEY=${{ env.API_KEY }}" >> $GITHUB_ENV
+
