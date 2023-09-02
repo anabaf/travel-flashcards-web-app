@@ -1,6 +1,3 @@
-const API_KEY = process.env.API_KEY;
-const API_URL = `https://translation.googleapis.com/language/translate/v2?key=${API_KEY}`
-
 let sourceLanguage = {
     lang: '',
     flag: '',
@@ -55,27 +52,52 @@ let sourcePhrases = [];
 
 let translatedPhrases = [];
 
+let API_KEY = null;
+
+async function fetchAPIKey() {
+    try {
+        const response = await fetch('http://localhost:3000/get-api-key');
+        const data = await response.json();
+        API_KEY = data.apiKey;
+    } catch (error) {
+        console.error('Error fetching API key:', error);
+    }
+}
+
 
 async function translatePhrase(phrase, sourceLanguage, targetLanguage) {
-    const requestTranslation = {
-        q: phrase,
-        source: sourceLanguage,
-        target: targetLanguage,
-    };
+    if (!API_KEY) {
+        console.error('API key is not available yet.');
+        return;
+    }
 
-    const response = await fetch(API_URL, {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(requestTranslation),
-    });
+    const API_URL = `https://translation.googleapis.com/language/translate/v2?key=${API_KEY}`;
 
-    const translatedData = await response.json();
-    return translatedData.data.translations[0].translatedText;
+    try {
+        const requestTranslation = {
+            q: phrase,
+            source: sourceLanguage,
+            target: targetLanguage,
+        };
+
+        const translationResponse = await fetch(API_URL, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(requestTranslation),
+        });
+
+        const translatedData = await translationResponse.json();
+        return translatedData.data.translations[0].translatedText;
+    } catch (error) {
+        console.error('Error:', error);
+    }
 }
 
 async function initiateTranslation(sourceLang, targetLang) {
+    await fetchAPIKey();
+
     sourceLanguage.lang = sourceLang;
     sourceLanguage.flag = languages.find(language => language.lang === sourceLang).flag;
 
@@ -120,5 +142,5 @@ export {
     translatedPhrases,
     sourceLanguage,
     targetLanguage,
-    initiateTranslation
+    initiateTranslation,
 }
