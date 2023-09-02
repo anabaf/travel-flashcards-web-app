@@ -6,23 +6,9 @@
 
 # Travel Flashcards App
 
-Welcome to Roam Phrase the travel flashcards app! This application is designed to help users learn essential phrases in different languages while traveling. Whether you're exploring a new country or trying to communicate in a foreign language, this app has got you covered.
+Welcome to Roam Phrase, the travel flashcards app! This application is designed to help users learn essential phrases in different languages while traveling. Whether you're exploring a new country or trying to communicate in a foreign language, this app has got you covered.
 
-Access this link to explore the app: https://anabaf.github.io/travel-flashcards-web-app (currently down)
-
-## Current Status
-
-- [x] Implemented core functionality.
-- [ ] Working on deployment.
-- [ ] Addressing API key security concerns.
-
-## Deployment Status
-
-I'm currently in the process of deploying this web application. Unfortunately, I've encountered some challenges, and it's not live yet. I'll keep you updated on the progress.
-
-## API Key Security
-
-To ensure the security of our application and sensitive API keys, I'm working on implementing best practices for managing and securing API keys. This is a top priority.
+Access this link to explore the app: [Travel Flashcards Web App](https://anabaf.github.io/travel-flashcards-web-app)
 
 ## Table of Contents
 
@@ -32,8 +18,8 @@ To ensure the security of our application and sensitive API keys, I'm working on
 - [Upcoming Features](#upcoming-features)
 - [Usage](#usage)
 - [Technologies Used](#technologies-used)
+- [Server-Side Setup](#server-side-setup)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
@@ -78,6 +64,10 @@ The Travel Flashcards App provides an easy and interactive way to learn importan
 - Bootstrap
 - Google Translate API (for translations)
 - Speech API (for pronunciation practice)
+
+## Server-Side Setup
+
+To securely manage API keys and provide them to the web app, I've set up a server-side component. The server code is written in Node.js and deployed using Vercel. This ensures that our API key is not exposed in the GitHub repository.
 
 ## Contributing
 
