@@ -56,7 +56,7 @@ let API_KEY = null;
 
 async function fetchAPIKey() {
     try {
-        const response = await fetch('http://localhost:3000/get-api-key');
+        const response = await fetch('https://flashcard-server-qk9lx1wv6-anabaf.vercel.app/get-api-key');
         const data = await response.json();
         API_KEY = data.apiKey;
     } catch (error) {
