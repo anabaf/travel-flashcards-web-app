@@ -105,7 +105,7 @@ function selectVoiceLang(lang) {
 function createAudioButton() {
     const audioButton = document.createElement('button');
     audioButton.setAttribute('id', 'audio-button');
-    audioButton.innerHTML = '<img src="./resources/audio.png" alt="Image" id="audio-img">';
+    audioButton.innerHTML = '<img src="./client-side/resources/audio.png" alt="Image" id="audio-img">';
 
     audioButton.onclick = function () {
         playAudioPhrase(selectVoiceLang(targetLang.lang));
