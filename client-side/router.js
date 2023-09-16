@@ -1,5 +1,6 @@
 import homepageController from './controllers/homepage-controller.js';
 import cardsController from './controllers/cards-controller.js';
+import aboutMeController from './controllers/about-controller.js';
 
 const routes = {
     home: {
@@ -10,6 +11,10 @@ const routes = {
         hash: '#cards',
         controller: cardsController
     },
+    aboutMe: {
+        hash: '#about',
+        controller: aboutMeController,
+    }
 }
 
 window.onhashchange = function () {
